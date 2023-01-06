@@ -1,0 +1,125 @@
+nav {
+    background-color: #1a202c;
+}
+
+
+
+.container {
+    background-color:#1a202c;
+    height: 75px;
+    border-bottom: 1px solid #e2e8f0;
+}
+.navbar-light {
+    background-color: #1a202c;
+}
+
+.icon-film { 
+    font-size: 30px;
+    transform: translateY(15px);
+}
+
+h5 {
+    align-items: center;
+ 
+    padding-left: 45px;
+  transform: translateY(-15px);
+    color: white; 
+    font-family: system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+}
+
+
+.links {
+    justify-content: space-between;
+  
+    transform: translateX(-145px);
+    transform: translateY(25px);
+    
+}
+
+a {
+    text-decoration: none;
+    justify-content: space-between;
+    padding-left: 15px;
+    align-items: center;
+    color: white;
+    
+ 
+}
+
+.form-control {
+    border-radius: 25px;
+    width: 255px;
+    background-color: #2d3748;
+    border: solid 1px #2d3748;
+    color: #2d3748;
+    height: 30px;
+ transform: translateX(-15px);
+
+}
+
+.icon-search {
+ font-size: 15px;
+    color: grey;
+    position: absolute;
+    transform: translateY(-22px);
+
+
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+
+.navbar-nav {
+    color: white;
+}
+
+.image {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    
+}
+
+ul{
+    transform: translateX(45px);
+}
+
+.navbar-nav {
+ 
+}
+
+
+
+.logo-image {
+    width:35px;
+    height: 35px;
+    transform: translateY(15px);
+
+}
+
+
+
+
+@media screen and (max-width:767px){
+    .navbar-custom-one .navbar-toggler{
+        display:none;
+    }
+    .navbar-custom-one .navbar-brand{
+        width:100%;
+        text-align:center;
+    }
+    .navbar-custom-one .nav-link{
+        text-align:center;
+    }
+    .navbar-custom-one .navbar-nav-scroll{
+        max-height:unset;
+    }
+    .navbar-custom-one .search-box{
+    display:none!important;
+    }
+    }
